@@ -7,9 +7,9 @@
 <div class="w-full max-w-xs  flex justify-center ">
     <form class="issa bg-white shadow-md rounded px-2 m-30"  action="" method="POST">
         {% csrf_token %}
-        <p  text-red-500">Title: {{ form.title }}</p>
-        <p  text-red-500">Purchaser: {{ form.purchaser }}</p>
-        <p  text-red-500">Description: {{ form.description }}</p>
+        <p  class=" text-red-500">Title: {{ form.title }}</p>
+        <p  class=" text-red-500">Purchaser: {{ form.purchaser }}</p>
+        <p  class=" text-red-500">Description: {{ form.description }}</p>
         <button class="bg-gray-900 hover:bg-blue-700 text-red-400 font-bold py-2 px-4 ml-20 rounded">Update</button>
          
     
