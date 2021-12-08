@@ -1,0 +1,18 @@
+{% extends 'snacks/_snack_base.html' %}
+
+
+<!-- {% block title %} Snacks|{{snack.name}} {% endblock %} -->
+
+{% block content %}
+<div>
+
+
+    <ul>
+        <li>  <h1>Name:- {{ snack.title }}</h1></li>
+        <li> <p>Purchaser:- {{ snack.purchaser }}</p></li>
+        <li> <p>Description:- {{ snack.description }}</p></li>
+    </ul>
+</div>
+<button class="bg-gray-900 hover:bg-blue-700 text-red-400 font-bold py-2 px-4 rounded"><a  href="{{thing.get_absolute_url}}delete">Delete</a></button>
+<button class="bg-gray-900 hover:bg-blue-700 text-red-400 font-bold py-2 px-4 rounded"><a  href="{% url 'snack_update' snack.pk %}">Update</a></button>
+{% endblock %}

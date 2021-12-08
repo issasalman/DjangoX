@@ -1,0 +1,13 @@
+{% extends 'snacks/_snack_base.html' %}
+
+
+{% block title %} Delete Snacks {% endblock %}
+
+{% block content %}
+<form action="" method="POST">
+    {% csrf_token %}
+    <p>You going to delete {{ snack.title }} Are You Sure?</p>
+    <button class="bg-gray-900 hover:bg-blue-700 text-red-400 font-bold py-2 px-4 rounded">Yes</button>
+  </form>
+
+{% endblock %}
