@@ -2,9 +2,10 @@
 ## REPO
 [REPO](https://github.com/issasalman/DjangoX)
 
-
 ## Pull Requests
-[PL](https://github.com/issasalman/DjangoX/pull/1)
+
+[PR](https://github.com/issasalman/DjangoX/pull/1)
+
 
 > A batteries-included Django starter project. For a production-ready version see the book [Django for Professionals](https://djangoforprofessionals.com).
 
