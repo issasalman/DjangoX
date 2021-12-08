@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -46,14 +47,15 @@
         </form>
         {% endif %}
       </nav>
+      
     </div>
   </main>
-
   <div class="container">
     {% block content %}
       <p>Default content...</p>
     {% endblock content %}
   </div>
+  <h1 style="color:blue;text-align:center;  font-size: 120px;">  <a href="{% url 'snack_list' %}">Snacks List</a> </h1>  
 
   <footer class="footer">
     <div class="container">
